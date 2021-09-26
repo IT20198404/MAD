@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/header_bg">
+
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:text="@string/mongome"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:text="Add Juice"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_view"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="465dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtTile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="13"
+                android:hint="Title"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/txtPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="13"
+                android:hint="Price" />
+
+            <Spinner
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="248px"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="248px"
+                android:ems="13"
+                android:entries="@array/juiceType_arrays"
+                android:prompt="@string/JuiceType_prompt" />
+
+            <ImageView
+                android:id="@+id/IdProf"
+                android:layout_width="match_parent"
+                android:layout_height="117dp"
+                android:layout_marginLeft="248px"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="248px"
+                android:background="@color/boostraop_light" />
+
+            <Button
+                android:id="@+id/UploadBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_gravity="right"
+                android:layout_marginTop="1dp"
+                android:layout_marginRight="248px"
+                android:background="@android:color/background_light"
+                android:text="Upload"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/widget_edittext_dark"
+                android:textSize="18sp"
+                android:textStyle="normal" />
+
+            <Button
+                android:id="@+id/btnAddJuice"
+                android:layout_width="wrap_content"
+                android:layout_height="33dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/f26321"
+                android:text="Save"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
