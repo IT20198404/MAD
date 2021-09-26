@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">MangoMe</string>
+    <string name="todo">TODO</string>
+    <string name="mongome">MangoMe</string>
+    <string name="Next">Next</string>
+    <string name="mango_juice">Mango Juice</string>
+    <string name="MangoIce">Mango Juice With Ice Cream</string>
+    <string name="Faluda">Faluda</string>
+    <string name="pineAppleJuice">Pine Apple Juice</string>
+    <string name="LemonJuice">Lemon Juice</string>
+
+    <string name="pay_prompt">Choose a Payment Method</string>
+    <string name="feedback">Choose Feedback Type</string>
+    <string name="userType_prompt">Choose a User Type</string>
+    <string name="Employee_prompt">Choose a Employee Type</string>
+    <string name="JuiceType_prompt">Choose a Juice Type</string>
+    <string name="ReasonOrderReject_prompt">Choose Reason For Order Reject</string>
+
+    <string name="description">Description</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_telephone_number">Your Telephone Number</string>
+    <string name="submit">Submit</string>
+    <string name="user_dashboard">User Dashboard</string>
+    <string name="category">Category</string>
+    <string name="Cart">Cart</string>
+    <string name="History">History</string>
+    <string name="Feedback">Feedback</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="edit">Edit</string>
+    <string name="Delete">Delete</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="View">View</string>
+    <string name="back">Back</string>
+    <string name="Profile">Profile</string>
+
+    <string-array name="pay_arrays">
+        <item>Choose a Payment Method</item>
+        <item>Visa</item>
+        <item>Master Card</item>
+        <item>Cashe</item>
+        <item>Frimee</item>
+    </string-array>
+
+    <string-array name="feedback_arrays">
+        <item>Choose Feedback Type</item>
+        <item>Positive</item>
+        <item>Negative</item>
+    </string-array>
+
+    <string-array name="user_arrays">
+        <item>Choose User Type</item>
+        <item>Admin</item>
+        <item>Customer</item>
+        <item>Driver</item>
+        <item>Employee</item>
+    </string-array>
+
+    <string-array name="juiceType_arrays">
+        <item>Choose a Juice Type</item>
+        <item>Mango</item>
+        <item>Apple</item>
+        <item>Beet</item>
+        <item>Blueberry</item>
+        <item>Cranberry</item>
+        <item>Carrot</item>
+        <item>Grape</item>
+        <item>Grapefruit</item>
+        <item>Orange</item>
+        <item>Pineapple</item>
+        <item>Pomegranate</item>
+    </string-array>
+
+    <string-array name="employee_arrays">
+        <item>Choose the Employee Type</item>
+        <item>Barmen</item>
+        <item>Chief Barmen</item>
+        <item>Assistance Barmen</item>
+    </string-array>
+
+    <string-array name="reason_order_reject_arrays">
+        <item>Choose Reason For Order Reject</item>
+        <item>Invalid Address</item>
+        <item>Order Item Not Clear</item>
+        <item>Invalid User Information</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

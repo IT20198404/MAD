@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="f26321">#F26321</color>
+    <color name="f8f8f8">#F8F8F8</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="F03005">#F03005</color>
+    <color name="FD6141">#FD6141</color>
+    <color name="textDark">#3D3D3D</color>
+    <color name="boostraop_light">#FBFBFB</color>
+    <color name="boostrap_green">#00B74A</color>
+    <color name="boostrap_Danger">#F93154</color>
+</resources>

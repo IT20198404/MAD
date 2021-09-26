@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.juice_delivery_app">
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".admin_add_juice"></activity>
+        <activity android:name=".driver_order_accept_details" />
+        <activity android:name=".employee_order_reject" />
+        <activity android:name=".driver_accept_order" />
+        <activity android:name=".driver_profile_edit" />
+        <activity android:name=".driver_profile_view" />
+        <activity android:name=".driver_dashboard" />
+        <activity android:name=".user_order_update" />
+        <activity android:name=".registration" />
+        <activity android:name=".user_cart" />
+        <activity android:name=".user_profile_view" />
+        <activity android:name=".user_order_history" />
+        <activity android:name=".user_reg_profile" />
+        <activity android:name=".user_order_current" />
+        <activity android:name=".user_finish_order" />
+        <activity android:name=".employee_order_proccessing" />
+        <activity android:name=".employee_check_address" />
+        <activity android:name=".employee_order" />
+        <activity android:name=".employee_edit_profile" />
+        <activity android:name=".employee_profile_view" />
+        <activity android:name=".driver_reg_profile" />
+        <activity android:name=".admin_view_driver_profile" />
+        <activity android:name=".employee_dashboard" />
+        <activity android:name=".admin_order_view_completed" />
+        <activity android:name=".admin_order_all_completed" />
+        <activity android:name=".admin_order_all" />
+        <activity android:name=".productOne" />
+        <activity android:name=".admin_drivers" />
+        <activity android:name=".admin_waiting_drivers" />
+        <activity android:name=".product" />
+        <activity android:name=".admin_edit_juice" />
+        <activity android:name=".admin_dashboard" />
+        <activity android:name=".admin_product_list" />
+        <activity android:name=".user_dashboard" />
+        <activity android:name=".employee_reg_profile" />
+        <activity android:name=".user_profile_edit" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Juice_RV" />
+        <activity android:name=".payment" />
+        <activity android:name=".login" />
+        <activity android:name=".admin_view_driver_profile_update" />
+        <activity android:name=".feedback">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
