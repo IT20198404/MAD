@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/header_bg">
+
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:text="MangoMe"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:text="Registration Page"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_view"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical">
+        />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/etemail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="13"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/mypass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="13"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/myrepass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="13"
+                android:hint="Re Type Password"
+                android:inputType="textPassword" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginLeft="248px"
+                android:layout_marginTop="18dp"
+                android:layout_marginRight="248px"
+                android:ems="13"
+                android:entries="@array/user_arrays"
+                android:prompt="@string/todo" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="bottom">
+
+
+                jdfkgkfdg</LinearLayout>
+
+            <Button
+                android:id="@+id/btnReg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/f26321"
+                android:text="Registration"
+                android:textAllCaps="false"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/createnewac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="I Have A Account!"
+                android:onClick="login"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
