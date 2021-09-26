@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "429047681313",
+    "project_id": "juicebar-ac067",
+    "storage_bucket": "juicebar-ac067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:429047681313:android:61e130ecceb70aa501ae60",
+        "android_client_info": {
+          "package_name": "com.example.juice_delivery_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "429047681313-geeoh9m195vi8ncj5dtsd2dmflnsduog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtRzVSR9g8ZvqjakBAGU9Z2sTlSSlMm2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "429047681313-geeoh9m195vi8ncj5dtsd2dmflnsduog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
