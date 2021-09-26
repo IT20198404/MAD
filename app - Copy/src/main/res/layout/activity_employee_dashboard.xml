@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/header_bg">
+
+    </View>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center_horizontal"
+        android:text="MangoMe"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:text="Employee Dashboard"
+        android:textAlignment="center"
+        android:textColor="@color/colorWhite"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="496dp"
+        android:layout_below="@+id/header_view"
+        android:layout_marginTop="65dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="177dp"
+                android:layout_height="107dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_light"
+                android:paddingTop="10dp"
+                android:text="Order"
+                android:textColor="@color/textDark"
+                android:textSize="24sp"
+
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="177dp"
+                android:layout_height="107dp"
+                android:background="@android:color/holo_orange_light"
+                android:text="@string/Profile"
+                android:textColor="@color/textDark"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="72dp" />
+    </TableLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@android:color/background_light"
+tools:context=".MainActivity">
+
+<View
+    android:id="@+id/header_view"
+    android:layout_width="match_parent"
+    android:layout_height="190dp"
+    android:background="@drawable/header_bg">
+
+</View>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="43dp"
+    android:layout_marginRight="25dp"
+    android:gravity="right"
+    android:letterSpacing="0.1"
+    android:text="Order Processing"
+    android:textAlignment="gravity"
+    android:textAllCaps="true"
+    android:textColor="@android:color/white"
+    android:textSize="40sp"
+    android:textStyle="bold" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/header_view"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"><![CDATA[
+        />
+
+
+
+
+
+        ]]>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:layout_margin="20dp"
+        android:background="@mipmap/pineapplecut_foreground"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnlogin3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@color/f26321"
+        android:text="Order Completed"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+    <Button
+        android:id="@+id/btnlogin13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@color/f26321"
+        android:text="Order Completed"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite" />
+</LinearLayout>
+
+
+</RelativeLayout>
